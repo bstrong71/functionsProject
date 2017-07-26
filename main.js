@@ -96,7 +96,10 @@ console.log(greaterThan(7,8));
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 // Then, write and example of using the function.
-
+function greet(Name){
+    return "Hello, " + Name + "!";
+}
+console.log(greet("TJ"));
 
 
 // 9.
@@ -107,3 +110,7 @@ console.log(greaterThan(7,8));
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
+function madLib(adj1, noun1, verb, prep, noun2){
+  return "The " + adj1 + " " + noun1 + " " + verb + " " + prep + " the " + noun2 + ".";
+}
+console.log(madLib("fat", "goat", "tumbled", "under", "fence"));
